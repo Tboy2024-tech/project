@@ -242,7 +242,7 @@ export default function ProjectDetail({ project }: ProjectDetailProps) {
                     className="w-full btn-primary flex items-center justify-center gap-2"
                   >
                     <ExternalLink size={18} />
-                    View Live Project
+                    View Gallary
                   </motion.a>
                 </Link>
               </motion.div>
