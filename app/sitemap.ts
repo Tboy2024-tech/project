@@ -1,3 +1,6 @@
+// Ensure sitemap is statically exportable when using `output: export`
+export const dynamic = 'force-static';
+
 import { MetadataRoute } from 'next';
 import projectsData from '@/data/projects.json';
 
