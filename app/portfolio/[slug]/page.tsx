@@ -3,11 +3,7 @@ import { notFound } from 'next/navigation';
 import ProjectDetail from '@/components/ProjectDetail';
 import projectsData from '@/data/projects.json';
 
-interface ProjectPageProps {
-  params: {
-    slug: string;
-  };
-}
+// Use inline param types to match Next.js expected shapes for route params
 
 export async function generateStaticParams() {
   return projectsData.map((project) => ({
@@ -15,7 +11,7 @@ export async function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata({ params }: ProjectPageProps): Promise<Metadata> {
+export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
   const project = projectsData.find((p) => p.id === params.slug);
   
   if (!project) {
@@ -35,7 +31,7 @@ export async function generateMetadata({ params }: ProjectPageProps): Promise<Me
   };
 }
 
-export default function ProjectPage({ params }: ProjectPageProps) {
+export default function ProjectPage({ params }: { params: { slug: string } }) {
   const project = projectsData.find((p) => p.id === params.slug);
 
   if (!project) {
