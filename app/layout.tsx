@@ -83,6 +83,8 @@ export default function RootLayout({
             </p>
           </div>
         </footer>
+  {/* Server-rendered modal root for portals (keeps body attrs consistent) */}
+  <div id="modal-root" />
       </body>
     </html>
   );

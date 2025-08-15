@@ -2,6 +2,7 @@
 
 import * as React from 'react';
 import Image from 'next/image';
+import { createPortal } from 'react-dom';
 import { X } from 'lucide-react';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from './ui/carousel';
 
@@ -20,7 +21,11 @@ export default function ProjectLightbox({
   open: boolean;
   onClose: () => void;
 }) {
-  const overlayRef = React.useRef<HTMLDivElement | null>(null);
+  const [mounted, setMounted] = React.useState(false);
+
+  React.useEffect(() => {
+    setMounted(true);
+  }, []);
 
   React.useEffect(() => {
     function onKey(e: KeyboardEvent) {
@@ -29,7 +34,6 @@ export default function ProjectLightbox({
 
     if (open) {
       document.addEventListener('keydown', onKey);
-      // prevent background scroll
       document.body.style.overflow = 'hidden';
     }
 
@@ -39,16 +43,19 @@ export default function ProjectLightbox({
     };
   }, [open, onClose]);
 
-  if (!open) return null;
+  if (!mounted) return null; // ensure portal target is present
 
-  return (
+  const root = document.getElementById('modal-root');
+  if (!root) return null;
+
+  return createPortal(
     <div
-      ref={overlayRef}
       aria-modal="true"
       role="dialog"
       className="fixed inset-0 z-50 flex items-center justify-center bg-black/80 p-4"
       onClick={(e) => {
-        if (e.target === overlayRef.current) onClose();
+        // close when clicking the dimmed background
+        if (e.target === e.currentTarget) onClose();
       }}
     >
       <div className="relative w-full max-w-5xl h-[80vh] bg-transparent">
@@ -74,6 +81,7 @@ export default function ProjectLightbox({
           <CarouselNext />
         </Carousel>
       </div>
-    </div>
+    </div>,
+    root
   );
 }
