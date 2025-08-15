@@ -3,6 +3,7 @@
 import Image from 'next/image';
 import { useState } from 'react';
 import { ArrowLeft, ArrowRight, X } from 'lucide-react';
+import Masonry from 'react-masonry-css';
 
 interface Props {
   images: string[];
@@ -48,14 +49,22 @@ export default function ProjectGalleryView({ images, title }: Props) {
           </div>
         </div>
 
-        <div className="grid grid-cols-4 gap-3 mt-6">
-          {images.map((img, i) => (
-            <button key={i} onClick={() => setIndex(i)} className={`h-24 rounded-md overflow-hidden border ${i === index ? 'ring-2 ring-primary' : 'border-transparent'}`}>
-              <div className="relative h-full">
-                <Image src={img} alt={`thumb-${i}`} fill className="object-cover" />
+        <div className="mt-6">
+          <Masonry
+            breakpointCols={{ default: 4, 1100: 3, 768: 2, 500: 1 }}
+            className="flex -mx-2"
+            columnClassName="px-2"
+          >
+            {images.map((image, i) => (
+              <div key={i} className="mb-4">
+                <button onClick={() => setIndex(i)} className={`w-full rounded-lg overflow-hidden border ${i === index ? 'ring-2 ring-primary' : 'border-transparent'}`}>
+                  <div className="relative w-full h-60">
+                    <Image src={image} alt={`thumb-${i}`} fill className="object-cover" />
+                  </div>
+                </button>
               </div>
-            </button>
-          ))}
+            ))}
+          </Masonry>
         </div>
       </div>
     </div>
