@@ -1,7 +1,7 @@
 "use client";
 
 import * as React from 'react';
-import Image from 'next/image';
+// use native img tag here to avoid next/image config/encoding issues in the modal
 import { createPortal } from 'react-dom';
 import { X } from 'lucide-react';
 import { Carousel, CarouselContent, CarouselItem, CarouselNext, CarouselPrevious } from './ui/carousel';
@@ -70,9 +70,9 @@ export default function ProjectLightbox({
         <Carousel className="h-full">
           <CarouselContent className="h-full">
             {project.images.map((src, i) => (
-              <CarouselItem key={i} className="h-full">
-                <div className="relative w-full h-full">
-                  <Image src={src} alt={`${project.title} - ${i + 1}`} fill className="object-contain" />
+              <CarouselItem key={i} className="h-full flex items-center justify-center">
+                <div className="w-full h-full flex items-center justify-center">
+                  <img src={encodeURI(src)} alt={`${project.title} - ${i + 1}`} className="object-contain max-h-full max-w-full" />
                 </div>
               </CarouselItem>
             ))}
