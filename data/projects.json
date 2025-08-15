@@ -1,21 +1,22 @@
 [
   {
-    "id": "brand-identity-techflow",
-    "title": "TechFlow Brand Identity",
-    "description": "Complete brand identity design for a cutting-edge technology startup, including logo, color palette, and brand guidelines.",
-    "client": "TechFlow Inc.",
+    "id": "luxemode-apparel",
+    "title": "LuxeMode Apparel",
+    "description": "Premium fashion branding for LuxeMode — elegant, minimal identity for modern professionals.",
+    "client": "LuxeMode",
     "category": "Branding",
-    "thumbnail": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=600&h=400&fit=crop&crop=center",
+    "thumbnail": "/images/LUXEMODE/LuxeMode Horizontal Logo.png",
     "images": [
-      "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=600&fit=crop&crop=center",
-      "https://images.unsplash.com/photo-1607703703520-bb638e84caf2?w=800&h=600&fit=crop&crop=center",
-      "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop&crop=center"
+      "/images/LUXEMODE/LuxeMode Shopping Bag Mockup.png",
+      "/images/LUXEMODE/LuxeMode Business Card Mockup.png",
+      "/images/LUXEMODE/LuxeMode Fashion Banner Design.png",
+      "/images/LUXEMODE/LuxeMode Stationery and Social Media Templates.png"
     ],
-    "problem": "TechFlow needed a modern, professional brand identity that would resonate with both B2B clients and tech-savvy consumers.",
-    "solution": "Created a minimalist logo with geometric elements, established a vibrant color palette, and developed comprehensive brand guidelines that emphasize innovation and reliability.",
-    "colors": ["#0066FF", "#00CCCC", "#FF6B35", "#2D3748"],
-    "fonts": ["Montserrat", "Open Sans"],
-    "year": "2024"
+    "problem": "LuxeMode needed a chic, minimal identity for their luxury fashion line targeting modern professionals.",
+    "solution": "Crafted a sleek gold-and-black logo, elegant serif typography, stationery, and social media templates to position the brand as premium yet approachable.",
+    "colors": ["#000000", "#CBB26A", "#F4F4F4"],
+    "fonts": ["Playfair Display", "Lato"],
+    "year": "2025"
   },
   {
     "id": "mobile-app-ui-fittracker",
