@@ -1,9 +1,10 @@
 'use client';
 
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
 import Image from 'next/image';
-import Link from 'next/link';
 import { ArrowUpRight, Calendar, Tag } from 'lucide-react';
+import ProjectLightbox from '@/components/ProjectLightbox';
 
 interface Project {
   id: string;
@@ -12,6 +13,7 @@ interface Project {
   client: string;
   category: string;
   thumbnail: string;
+  images?: string[];
   year: string;
 }
 
@@ -21,6 +23,7 @@ interface ProjectCardProps {
 }
 
 export default function ProjectCard({ project, index }: ProjectCardProps) {
+  const [isOpen, setIsOpen] = useState(false);
   const categoryColors = {
     'Branding': 'bg-purple-500/20 text-purple-300 border-purple-500/30',
     'UI-UX': 'bg-blue-500/20 text-blue-300 border-blue-500/30',
@@ -70,15 +73,14 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
 
           {/* View Project Link */}
           <div className="absolute bottom-4 right-4 opacity-0 group-hover:opacity-100 transition-all duration-300 transform translate-y-2 group-hover:translate-y-0">
-            <Link href={`/portfolio/${project.id}`}>
-              <motion.button
-                whileHover={{ scale: 1.1 }}
-                whileTap={{ scale: 0.9 }}
-                className="bg-primary hover:bg-primary/90 text-white p-2 rounded-full shadow-lg"
-              >
-                <ArrowUpRight size={20} />
-              </motion.button>
-            </Link>
+            <motion.button
+              onClick={() => setIsOpen(true)}
+              whileHover={{ scale: 1.1 }}
+              whileTap={{ scale: 0.9 }}
+              className="bg-primary hover:bg-primary/90 text-white p-2 rounded-full shadow-lg"
+            >
+              <ArrowUpRight size={20} />
+            </motion.button>
           </div>
         </div>
 
@@ -96,17 +98,27 @@ export default function ProjectCard({ project, index }: ProjectCardProps) {
             {project.description}
           </p>
 
-          <Link href={`/portfolio/${project.id}`}>
-            <motion.button
-              whileHover={{ x: 5 }}
-              className="inline-flex items-center text-primary hover:text-secondary font-medium text-sm transition-colors duration-300 group"
-            >
-              View Case Study
-              <ArrowUpRight size={16} className="ml-1 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300" />
-            </motion.button>
-          </Link>
+          <motion.button
+            onClick={() => setIsOpen(true)}
+            whileHover={{ x: 5 }}
+            className="inline-flex items-center text-primary hover:text-secondary font-medium text-sm transition-colors duration-300 group"
+          >
+            View Case Study
+            <ArrowUpRight size={16} className="ml-1 group-hover:translate-x-1 group-hover:-translate-y-1 transition-transform duration-300" />
+          </motion.button>
         </div>
       </div>
+      {isOpen && (
+        <ProjectLightbox
+          project={{
+            id: project.id,
+            title: project.title,
+            images: project.images || [project.thumbnail],
+          }}
+          open={isOpen}
+          onClose={() => setIsOpen(false)}
+        />
+      )}
     </motion.div>
   );
 }
