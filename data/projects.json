@@ -1,0 +1,524 @@
+[
+  {
+    "id": "brand-identity-techflow",
+    "title": "TechFlow Brand Identity",
+    "description": "Complete brand identity design for a cutting-edge technology startup, including logo, color palette, and brand guidelines.",
+    "client": "TechFlow Inc.",
+    "category": "Branding",
+    "thumbnail": "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1607703703520-bb638e84caf2?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop&crop=center"
+    ],
+    "problem": "TechFlow needed a modern, professional brand identity that would resonate with both B2B clients and tech-savvy consumers.",
+    "solution": "Created a minimalist logo with geometric elements, established a vibrant color palette, and developed comprehensive brand guidelines that emphasize innovation and reliability.",
+    "colors": ["#0066FF", "#00CCCC", "#FF6B35", "#2D3748"],
+    "fonts": ["Montserrat", "Open Sans"],
+    "year": "2024"
+  },
+  {
+    "id": "mobile-app-ui-fittracker",
+    "title": "FitTracker Mobile App UI",
+    "description": "Complete UI/UX design for a fitness tracking mobile application with intuitive navigation and data visualization.",
+    "client": "FitLife Solutions",
+    "category": "UI-UX",
+    "thumbnail": "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1607703703520-bb638e84caf2?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&h=600&fit=crop&crop=center"
+    ],
+    "problem": "Users needed an intuitive way to track their fitness progress while maintaining motivation through engaging visual feedback.",
+    "solution": "Designed a clean, motivational interface with gamification elements, progress visualization, and personalized workout recommendations.",
+    "colors": ["#4CAF50", "#FF9800", "#2196F3", "#F5F5F5"],
+    "fonts": ["Roboto", "Poppins"],
+    "year": "2024"
+  },
+  {
+    "id": "restaurant-branding-savoria",
+    "title": "Savoria Restaurant Branding",
+    "description": "Elegant branding package for an upscale dining establishment, including menu design, signage, and promotional materials.",
+    "client": "Savoria Restaurant",
+    "category": "Branding",
+    "thumbnail": "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1600891964599-f61ba0e24092?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1514933651103-005eec06c04b?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1555396273-367ea4eb4db5?w=800&h=600&fit=crop&crop=center"
+    ],
+    "problem": "Savoria needed sophisticated branding that would attract discerning diners and convey the restaurant's commitment to culinary excellence.",
+    "solution": "Developed an elegant visual identity with gold accents, classic typography, and luxurious packaging design that reflects the premium dining experience.",
+    "colors": ["#D4AF37", "#2C3E50", "#FFFFFF", "#8B4513"],
+    "fonts": ["Playfair Display", "Source Sans Pro"],
+    "year": "2024"
+  },
+  {
+    "id": "ecommerce-website-redesign",
+    "title": "E-commerce Website Redesign",
+    "description": "Complete redesign of an online fashion retailer's website to improve user experience and increase conversion rates.",
+    "client": "StyleHub Fashion",
+    "category": "UI-UX",
+    "thumbnail": "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop&crop=center"
+    ],
+    "problem": "The existing website had poor navigation, low conversion rates, and wasn't optimized for mobile shopping experiences.",
+    "solution": "Redesigned with mobile-first approach, improved product discovery, streamlined checkout process, and enhanced visual hierarchy.",
+    "colors": ["#E91E63", "#9C27B0", "#673AB7", "#F8F9FA"],
+    "fonts": ["Inter", "DM Sans"],
+    "year": "2024"
+  },
+  {
+    "id": "corporate-identity-innovate",
+    "title": "Innovate Corp Identity",
+    "description": "Professional corporate identity design for a consulting firm, emphasizing trust, expertise, and innovation.",
+    "client": "Innovate Consulting",
+    "category": "Branding",
+    "thumbnail": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1542626991-cbc4e32524cc?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1486312338219-ce68e2c6b696?w=800&h=600&fit=crop&crop=center"
+    ],
+    "problem": "The consulting firm needed a professional identity that would establish credibility with Fortune 500 clients.",
+    "solution": "Created a sophisticated logo with clean lines, established a premium color palette, and designed professional marketing materials.",
+    "colors": ["#1565C0", "#37474F", "#ECEFF1", "#FFC107"],
+    "fonts": ["Lato", "Merriweather"],
+    "year": "2024"
+  },
+  {
+    "id": "dashboard-design-analytics",
+    "title": "Analytics Dashboard Design",
+    "description": "Comprehensive dashboard design for a data analytics platform with complex data visualization requirements.",
+    "client": "DataViz Pro",
+    "category": "UI-UX",
+    "thumbnail": "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1460925895917-afdab827c52f?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop&crop=center"
+    ],
+    "problem": "Users were overwhelmed by complex data and needed an intuitive way to analyze and interpret business metrics.",
+    "solution": "Designed a clean, organized dashboard with progressive disclosure, interactive charts, and customizable widgets for different user roles.",
+    "colors": ["#3F51B5", "#009688", "#FF5722", "#F5F5F5"],
+    "fonts": ["Roboto", "Source Code Pro"],
+    "year": "2024"
+  },
+  {
+    "id": "event-poster-series",
+    "title": "Tech Conference Poster Series",
+    "description": "Dynamic poster series for a major technology conference, featuring bold typography and geometric designs.",
+    "client": "TechSummit 2024",
+    "category": "Graphic Design",
+    "thumbnail": "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1559136555-9303baea8ebd?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1611224923853-80b023f02d71?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1635070041078-e363dbe005cb?w=800&h=600&fit=crop&crop=center"
+    ],
+    "problem": "The conference needed eye-catching promotional materials that would stand out in a crowded tech event landscape.",
+    "solution": "Created a cohesive poster series with bold geometric patterns, gradient overlays, and dynamic typography that captures the energy of innovation.",
+    "colors": ["#6200EA", "#00BCD4", "#FF4081", "#212121"],
+    "fonts": ["Bebas Neue", "Open Sans"],
+    "year": "2024"
+  },
+  {
+    "id": "mobile-banking-app",
+    "title": "Secure Banking App UI",
+    "description": "User-friendly mobile banking application design with focus on security, accessibility, and financial management.",
+    "client": "SecureBank Digital",
+    "category": "UI-UX",
+    "thumbnail": "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1556742049-0cfed4f6a45d?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=800&h=600&fit=crop&crop=center"
+    ],
+    "problem": "Users needed a secure yet accessible way to manage their finances on mobile devices without compromising security.",
+    "solution": "Designed an intuitive interface with biometric authentication, clear financial overview, and simplified transaction flows.",
+    "colors": ["#1976D2", "#388E3C", "#FFA000", "#FFFFFF"],
+    "fonts": ["Roboto", "Roboto Condensed"],
+    "year": "2024"
+  },
+  {
+    "id": "startup-pitch-deck",
+    "title": "EcoTech Startup Pitch Deck",
+    "description": "Professional pitch deck design for a sustainable technology startup seeking Series A funding.",
+    "client": "EcoTech Solutions",
+    "category": "Graphic Design",
+    "thumbnail": "https://images.unsplash.com/photo-1542626991-cbc4e32524cc?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1542626991-cbc4e32524cc?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1486312338219-ce68e2c6b696?w=800&h=600&fit=crop&crop=center"
+    ],
+    "problem": "The startup needed a compelling visual presentation that would communicate their environmental impact and business potential to investors.",
+    "solution": "Created a clean, data-driven presentation with eco-friendly color palette and infographics that effectively tell the company's story.",
+    "colors": ["#4CAF50", "#8BC34A", "#2E7D32", "#F1F8E9"],
+    "fonts": ["Nunito Sans", "Roboto Slab"],
+    "year": "2024"
+  },
+  {
+    "id": "social-media-campaign",
+    "title": "Fashion Brand Social Campaign",
+    "description": "Comprehensive social media campaign design for a sustainable fashion brand's product launch.",
+    "client": "EcoWear Fashion",
+    "category": "Graphic Design",
+    "thumbnail": "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1441986300917-64674bd600d8?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1469334031218-e382a71b716b?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1445205170230-053b83016050?w=800&h=600&fit=crop&crop=center"
+    ],
+    "problem": "The brand needed cohesive visual content across multiple social platforms to launch their new sustainable clothing line.",
+    "solution": "Developed a versatile design system with earth tones, natural textures, and consistent typography for Instagram, Facebook, and Pinterest.",
+    "colors": ["#8D6E63", "#A1887F", "#5D4037", "#F5F5DC"],
+    "fonts": ["Playfair Display", "Lato"],
+    "year": "2024"
+  },
+  {
+    "id": "healthcare-app-design",
+    "title": "HealthConnect Telemedicine App",
+    "description": "Comprehensive telemedicine app design focusing on patient-doctor communication and medical record management.",
+    "client": "HealthConnect Inc.",
+    "category": "UI-UX",
+    "thumbnail": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1576091160399-112ba8d25d1f?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=800&h=600&fit=crop&crop=center"
+    ],
+    "problem": "Patients needed an accessible, secure platform to connect with healthcare providers remotely while maintaining privacy.",
+    "solution": "Designed an intuitive interface with video consultation features, appointment scheduling, and secure messaging system.",
+    "colors": ["#2196F3", "#00BCD4", "#4CAF50", "#FAFAFA"],
+    "fonts": ["Inter", "Roboto"],
+    "year": "2024"
+  },
+  {
+    "id": "packaging-design-organic",
+    "title": "Organic Food Packaging Line",
+    "description": "Sustainable packaging design for an organic food company's product line emphasizing natural ingredients.",
+    "client": "Pure Harvest Organic",
+    "category": "Branding",
+    "thumbnail": "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1586201375761-83865001e31c?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1542838132-92c53300491e?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1556909114-f6e7ad7d3136?w=800&h=600&fit=crop&crop=center"
+    ],
+    "problem": "The company needed packaging that would communicate their commitment to organic, sustainable farming practices.",
+    "solution": "Created earth-tone packaging with hand-drawn illustrations, sustainable materials information, and clear organic certification displays.",
+    "colors": ["#689F38", "#8BC34A", "#795548", "#FFF8E1"],
+    "fonts": ["Merriweather", "Open Sans"],
+    "year": "2024"
+  },
+  {
+    "id": "learning-platform-ui",
+    "title": "EduPlatform Learning Management",
+    "description": "Comprehensive learning management system design for online education with interactive course materials.",
+    "client": "EduTech Solutions",
+    "category": "UI-UX",
+    "thumbnail": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1434030216411-0b793f4b4173?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1513475382585-d06e58bcb0e0?w=800&h=600&fit=crop&crop=center"
+    ],
+    "problem": "Students and educators needed an engaging platform that would facilitate effective online learning and course management.",
+    "solution": "Designed an interactive learning environment with progress tracking, multimedia content support, and collaborative tools.",
+    "colors": ["#3F51B5", "#FF9800", "#4CAF50", "#F5F5F5"],
+    "fonts": ["Roboto", "Nunito"],
+    "year": "2024"
+  },
+  {
+    "id": "music-festival-branding",
+    "title": "Harmony Music Festival Identity",
+    "description": "Complete visual identity for a multi-genre music festival including logos, stage designs, and merchandise.",
+    "client": "Harmony Festival Org",
+    "category": "Branding",
+    "thumbnail": "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1514525253161-7a46d19cd819?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1540039155733-5bb30b53aa14?w=800&h=600&fit=crop&crop=center"
+    ],
+    "problem": "The festival needed vibrant, energetic branding that would appeal to diverse music fans and create memorable experiences.",
+    "solution": "Developed a dynamic visual system with bold colors, flowing patterns, and typography that captures the spirit of live music.",
+    "colors": ["#E91E63", "#9C27B0", "#FF5722", "#FFC107"],
+    "fonts": ["Montserrat", "Dancing Script"],
+    "year": "2024"
+  },
+  {
+    "id": "travel-app-redesign",
+    "title": "Wanderlust Travel App Redesign",
+    "description": "Complete redesign of a travel booking application with improved user journey and booking experience.",
+    "client": "Wanderlust Travel",
+    "category": "UI-UX",
+    "thumbnail": "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1488646953014-85cb44e25828?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1501594907352-04cda38ebc29?w=800&h=600&fit=crop&crop=center"
+    ],
+    "problem": "Users found the existing booking process confusing and the interface outdated, leading to high abandonment rates.",
+    "solution": "Redesigned with streamlined booking flow, intuitive navigation, inspiring destination imagery, and personalized recommendations.",
+    "colors": ["#2196F3", "#00BCD4", "#FF9800", "#FFFFFF"],
+    "fonts": ["Poppins", "Source Sans Pro"],
+    "year": "2024"
+  },
+  {
+    "id": "nonprofit-annual-report",
+    "title": "GreenEarth Annual Report Design",
+    "description": "Impactful annual report design for an environmental nonprofit showcasing their conservation achievements.",
+    "client": "GreenEarth Foundation",
+    "category": "Graphic Design",
+    "thumbnail": "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1441974231531-c6227db76b6e?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1470071459604-3b5ec3a7fe05?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1506905925346-21bda4d32df4?w=800&h=600&fit=crop&crop=center"
+    ],
+    "problem": "The foundation needed to communicate their environmental impact and financial transparency to donors and stakeholders.",
+    "solution": "Created an engaging report with infographics, impact stories, and sustainable design elements that inspire continued support.",
+    "colors": ["#4CAF50", "#8BC34A", "#2E7D32", "#E8F5E8"],
+    "fonts": ["Lora", "Open Sans"],
+    "year": "2024"
+  },
+  {
+    "id": "fintech-dashboard",
+    "title": "InvestSmart Portfolio Dashboard",
+    "description": "Professional investment portfolio dashboard design with real-time market data and analytics.",
+    "client": "InvestSmart Financial",
+    "category": "UI-UX",
+    "thumbnail": "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1590283603385-17ffb3a7f29f?w=800&h=600&fit=crop&crop=center"
+    ],
+    "problem": "Investment professionals needed a comprehensive yet intuitive interface to manage complex portfolios and market analysis.",
+    "solution": "Designed a sophisticated dashboard with customizable widgets, real-time charts, and risk assessment tools.",
+    "colors": ["#1565C0", "#43A047", "#E53935", "#F5F5F5"],
+    "fonts": ["Roboto", "Roboto Mono"],
+    "year": "2024"
+  },
+  {
+    "id": "luxury-hotel-branding",
+    "title": "Azure Luxury Resort Branding",
+    "description": "Sophisticated branding package for a luxury resort including visual identity, signage, and guest experience materials.",
+    "client": "Azure Resort & Spa",
+    "category": "Branding",
+    "thumbnail": "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1571896349842-33c89424de2d?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1540541338287-41700207dee6?w=800&h=600&fit=crop&crop=center"
+    ],
+    "problem": "The luxury resort needed branding that would convey exclusivity and elegance while appealing to discerning travelers.",
+    "solution": "Developed an elegant visual identity with ocean-inspired colors, premium typography, and sophisticated marketing materials.",
+    "colors": ["#0277BD", "#B39DDB", "#FFD54F", "#FFFFFF"],
+    "fonts": ["Playfair Display", "Source Sans Pro"],
+    "year": "2024"
+  },
+  {
+    "id": "fitness-tracking-dashboard",
+    "title": "FitPro Trainer Dashboard",
+    "description": "Comprehensive fitness tracking dashboard for personal trainers to monitor client progress and plan workouts.",
+    "client": "FitPro Training Solutions",
+    "category": "UI-UX",
+    "thumbnail": "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1571019613454-1cb2f99b2d8b?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1599058917212-d750089bc07e?w=800&h=600&fit=crop&crop=center"
+    ],
+    "problem": "Personal trainers needed an efficient way to track multiple clients' progress, schedule sessions, and create workout plans.",
+    "solution": "Created an intuitive dashboard with client management tools, progress visualization, and workout planning features.",
+    "colors": ["#FF5722", "#4CAF50", "#2196F3", "#F8F9FA"],
+    "fonts": ["Roboto", "Roboto Condensed"],
+    "year": "2024"
+  },
+  {
+    "id": "book-cover-series",
+    "title": "Sci-Fi Novel Series Covers",
+    "description": "Cohesive book cover design series for a science fiction trilogy with futuristic themes and consistent branding.",
+    "client": "Stellar Publications",
+    "category": "Graphic Design",
+    "thumbnail": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1446776877081-d282a0f896e2?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop&crop=center"
+    ],
+    "problem": "The publisher needed eye-catching covers that would appeal to sci-fi readers while maintaining series consistency.",
+    "solution": "Designed a cohesive series with futuristic typography, cosmic color palettes, and consistent visual elements across all three books.",
+    "colors": ["#6A1B9A", "#1A237E", "#00BCD4", "#E1F5FE"],
+    "fonts": ["Orbitron", "Roboto"],
+    "year": "2024"
+  },
+  {
+    "id": "food-delivery-app",
+    "title": "QuickBite Food Delivery App",
+    "description": "User-friendly food delivery app design with restaurant discovery, ordering, and tracking features.",
+    "client": "QuickBite Delivery",
+    "category": "UI-UX",
+    "thumbnail": "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1565299624946-b28f40a0ca4b?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1551218808-94e220e084d2?w=800&h=600&fit=crop&crop=center"
+    ],
+    "problem": "Users needed a fast, intuitive way to discover restaurants, place orders, and track deliveries in real-time.",
+    "solution": "Designed an appetizing interface with visual menu browsing, easy customization options, and live delivery tracking.",
+    "colors": ["#FF5722", "#4CAF50", "#FFC107", "#FFFFFF"],
+    "fonts": ["Poppins", "Open Sans"],
+    "year": "2024"
+  },
+  {
+    "id": "automotive-branding",
+    "title": "ElectricDrive Car Brand Identity",
+    "description": "Modern brand identity for an electric vehicle startup emphasizing sustainability and innovation.",
+    "client": "ElectricDrive Motors",
+    "category": "Branding",
+    "thumbnail": "https://images.unsplash.com/photo-1593941707882-a5bac6861d75?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1593941707882-a5bac6861d75?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1449824913935-59a10b8d2000?w=800&h=600&fit=crop&crop=center"
+    ],
+    "problem": "The startup needed branding that would position them as innovative leaders in the electric vehicle market.",
+    "solution": "Created a sleek, forward-thinking identity with electric blue accents, clean typography, and sustainable messaging.",
+    "colors": ["#1E88E5", "#00E676", "#37474F", "#ECEFF1"],
+    "fonts": ["Montserrat", "Source Sans Pro"],
+    "year": "2024"
+  },
+  {
+    "id": "podcast-visual-identity",
+    "title": "TechTalk Podcast Visual Identity",
+    "description": "Complete visual identity package for a technology podcast including cover art, social media templates, and merchandise.",
+    "client": "TechTalk Media",
+    "category": "Branding",
+    "thumbnail": "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1478737270239-2f02b77fc618?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1590736969955-71cc94901144?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop&crop=center"
+    ],
+    "problem": "The podcast needed a professional visual identity that would stand out in crowded podcast directories and social media.",
+    "solution": "Developed a tech-focused brand with podcast cover art, episode templates, and consistent social media graphics.",
+    "colors": ["#673AB7", "#009688", "#FF5722", "#212121"],
+    "fonts": ["Roboto", "Roboto Condensed"],
+    "year": "2024"
+  },
+  {
+    "id": "real-estate-website",
+    "title": "PremiumHomes Real Estate Platform",
+    "description": "Luxury real estate website design with advanced property search, virtual tours, and agent profiles.",
+    "client": "PremiumHomes Realty",
+    "category": "UI-UX",
+    "thumbnail": "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1560518883-ce09059eeffa?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1582407947304-fd86f028f716?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&h=600&fit=crop&crop=center"
+    ],
+    "problem": "High-end property buyers needed an elegant platform to browse luxury homes with detailed information and immersive visuals.",
+    "solution": "Designed a sophisticated website with high-quality imagery, advanced filtering, virtual tour integration, and agent connectivity.",
+    "colors": ["#1565C0", "#D4AF37", "#37474F", "#FAFAFA"],
+    "fonts": ["Playfair Display", "Lato"],
+    "year": "2024"
+  },
+  {
+    "id": "gaming-ui-design",
+    "title": "CyberRealm Game UI Design",
+    "description": "Futuristic user interface design for a sci-fi multiplayer game including HUD, menus, and interactive elements.",
+    "client": "Nexus Game Studios",
+    "category": "UI-UX",
+    "thumbnail": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop&crop=center"
+    ],
+    "problem": "Gamers needed an immersive, intuitive interface that wouldn't distract from gameplay while providing essential information.",
+    "solution": "Created a sleek, transparent HUD design with neon accents, clear information hierarchy, and responsive interactive elements.",
+    "colors": ["#00E676", "#1DE9B6", "#7C4DFF", "#212121"],
+    "fonts": ["Orbitron", "Exo 2"],
+    "year": "2024"
+  },
+  {
+    "id": "medical-app-interface",
+    "title": "MediTrack Patient Management",
+    "description": "Comprehensive medical app interface for healthcare providers to manage patient records and appointments.",
+    "client": "MediTrack Solutions",
+    "category": "UI-UX",
+    "thumbnail": "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1576091160550-2173dba999ef?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1559757148-5c350d0d3c56?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1551601651-2a8555f1a136?w=800&h=600&fit=crop&crop=center"
+    ],
+    "problem": "Healthcare providers needed an efficient, secure system to manage patient information, schedules, and medical records.",
+    "solution": "Designed a clean, professional interface with secure patient profiles, appointment scheduling, and medical history tracking.",
+    "colors": ["#2196F3", "#4CAF50", "#FF9800", "#F5F5F5"],
+    "fonts": ["Inter", "Roboto"],
+    "year": "2024"
+  },
+  {
+    "id": "wine-brand-packaging",
+    "title": "Vintage Valley Wine Collection",
+    "description": "Elegant wine packaging and label design for a premium vineyard's signature collection emphasizing heritage and quality.",
+    "client": "Vintage Valley Winery",
+    "category": "Branding",
+    "thumbnail": "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1506377247377-2a5b3b417ebb?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1547595628-c61a29f496f0?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1510812431401-41d2bd2722f3?w=800&h=600&fit=crop&crop=center"
+    ],
+    "problem": "The winery needed packaging that would convey premium quality and stand out on retail shelves while honoring tradition.",
+    "solution": "Created elegant labels with classic typography, wine-specific color coding, and premium materials that reflect the vineyard's heritage.",
+    "colors": ["#8D1538", "#D4AF37", "#2E2E2E", "#F8F6F0"],
+    "fonts": ["Crimson Text", "Avenir"],
+    "year": "2024"
+  },
+  {
+    "id": "crypto-exchange-platform",
+    "title": "CryptoTrade Exchange Platform",
+    "description": "Professional cryptocurrency trading platform design with advanced charts, portfolio management, and security features.",
+    "client": "CryptoTrade Solutions",
+    "category": "UI-UX",
+    "thumbnail": "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1639762681485-074b7f938ba0?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop&crop=center"
+    ],
+    "problem": "Cryptocurrency traders needed a reliable, feature-rich platform with real-time data and advanced trading tools.",
+    "solution": "Designed a sophisticated trading interface with customizable charts, portfolio analytics, and secure transaction features.",
+    "colors": ["#FF9800", "#4CAF50", "#F44336", "#263238"],
+    "fonts": ["Roboto", "Roboto Mono"],
+    "year": "2024"
+  },
+  {
+    "id": "children-book-illustration",
+    "title": "Adventures in Wonderland Series",
+    "description": "Whimsical illustration and design series for children's picture books with engaging characters and colorful storytelling.",
+    "client": "Rainbow Publishing",
+    "category": "Graphic Design",
+    "thumbnail": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=600&h=400&fit=crop&crop=center",
+    "images": [
+      "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1481627834876-b7833e8f5570?w=800&h=600&fit=crop&crop=center",
+      "https://images.unsplash.com/photo-1544947950-fa07a98d237f?w=800&h=600&fit=crop&crop=center"
+    ],
+    "problem": "The publisher needed engaging, age-appropriate illustrations that would capture children's imagination and support literacy.",
+    "solution": "Created vibrant, playful illustrations with diverse characters, educational elements, and interactive storytelling features.",
+    "colors": ["#E91E63", "#9C27B0", "#2196F3", "#4CAF50"],
+    "fonts": ["Fredoka One", "Open Sans"],
+    "year": "2024"
+  }
+]
