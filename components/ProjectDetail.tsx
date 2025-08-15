@@ -236,10 +236,15 @@ export default function ProjectDetail({ project }: ProjectDetailProps) {
                 transition={{ duration: 0.6, delay: 0.3 }}
                 viewport={{ once: true }}
               >
-                <button className="w-full btn-primary flex items-center justify-center gap-2">
-                  <ExternalLink size={18} />
-                  View Live Project
-                </button>
+                <Link href={`/portfolio/${project.id}/gallery`}>
+                  <motion.a
+                    whileHover={{ scale: 1.02 }}
+                    className="w-full btn-primary flex items-center justify-center gap-2"
+                  >
+                    <ExternalLink size={18} />
+                    View Live Project
+                  </motion.a>
+                </Link>
               </motion.div>
             </div>
           </div>
