@@ -11,7 +11,7 @@ export async function generateStaticParams() {
   }));
 }
 
-export async function generateMetadata({ params }: { params: { slug: string } }): Promise<Metadata> {
+export async function generateMetadata({ params }: any): Promise<Metadata> {
   const project = projectsData.find((p) => p.id === params.slug);
   
   if (!project) {
@@ -31,7 +31,7 @@ export async function generateMetadata({ params }: { params: { slug: string } })
   };
 }
 
-export default function ProjectPage({ params }: { params: { slug: string } }) {
+export default function ProjectPage({ params }: any) {
   const project = projectsData.find((p) => p.id === params.slug);
 
   if (!project) {
