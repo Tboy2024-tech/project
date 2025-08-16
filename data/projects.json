@@ -28,6 +28,35 @@
     "year": "2025"
   },
   {
+    "id": "bean-and-bloom",
+    "title": "Bean&Bloom – Organic Coffee Shop Branding",
+    "description": "Warm, rustic branding for an eco-conscious coffee shop, featuring a hand-drawn coffee bean logo and earthy tones.",
+    "client": "Bean&Bloom",
+    "category": "Branding",
+    "thumbnail": "/images/bean and bloom/Bean&Bloom Revised Logo.png",
+    "images": [
+      "/images/bean and bloom/Bean&Bloom Brand Guidelines Mockup.png",
+      "/images/bean and bloom/Bean&Bloom Coffee Cup Sleeve.png",
+      "/images/bean and bloom/Bean&Bloom Coffee Tasting Event Flyer.png",
+      "/images/bean and bloom/Bean&Bloom Interior Design - Counter Area.png",
+      "/images/bean and bloom/Bean&Bloom Interior Design Concept.png",
+      "/images/bean and bloom/Bean&Bloom Outdoor Sign.png",
+      "/images/bean and bloom/Bean&Bloom Packaging Designs.png",
+      "/images/bean and bloom/Bean&Bloom Revised Logo.png",
+      "/images/bean and bloom/Bean&Bloom Rustic Menu Layout.png",
+      "/images/bean and bloom/Bean&Bloom Seasonal Coffee Flyer.png",
+      "/images/bean and bloom/Bean&Bloom Social Media Templates - Eco-Friendly To-Go Cups.png",
+      "/images/bean and bloom/Bean&Bloom Social Media Templates - Glass Cups.png",
+      "/images/bean and bloom/Bean&Bloom Social Media Templates - Mixed Cups.png",
+      "/images/bean and bloom/Bean&Bloom Social Media Templates.png"
+    ],
+    "problem": "Needed a warm, approachable coffee shop identity that appeals to eco-conscious customers.",
+    "solution": "Designed a hand-drawn coffee bean logo, earthy color palette, and rustic menu designs.",
+    "colors": ["#4B3621", "#EAD2AC", "#C1A57B"],
+    "fonts": ["Pacifico", "Open Sans"],
+    "year": "2025"
+  },
+  {
     "id": "mobile-app-ui-fittracker",
     "title": "FitTracker Mobile App UI",
     "description": "Complete UI/UX design for a fitness tracking mobile application with intuitive navigation and data visualization.",
@@ -530,34 +559,5 @@
     "colors": ["#E91E63", "#9C27B0", "#2196F3", "#4CAF50"],
     "fonts": ["Fredoka One", "Open Sans"],
     "year": "2024"
-  },
-  {
-    "id": "bean-and-bloom",
-    "title": "Bean&Bloom – Organic Coffee Shop Branding",
-    "description": "Warm, rustic branding for an eco-conscious coffee shop, featuring a hand-drawn coffee bean logo and earthy tones.",
-    "client": "Bean&Bloom",
-    "category": "Branding",
-    "thumbnail": "/images/bean and bloom/Bean&Bloom Revised Logo.png",
-    "images": [
-      "/images/bean and bloom/Bean&Bloom Brand Guidelines Mockup.png",
-      "/images/bean and bloom/Bean&Bloom Coffee Cup Sleeve.png",
-      "/images/bean and bloom/Bean&Bloom Coffee Tasting Event Flyer.png",
-      "/images/bean and bloom/Bean&Bloom Interior Design - Counter Area.png",
-      "/images/bean and bloom/Bean&Bloom Interior Design Concept.png",
-      "/images/bean and bloom/Bean&Bloom Outdoor Sign.png",
-      "/images/bean and bloom/Bean&Bloom Packaging Designs.png",
-      "/images/bean and bloom/Bean&Bloom Revised Logo.png",
-      "/images/bean and bloom/Bean&Bloom Rustic Menu Layout.png",
-      "/images/bean and bloom/Bean&Bloom Seasonal Coffee Flyer.png",
-      "/images/bean and bloom/Bean&Bloom Social Media Templates - Eco-Friendly To-Go Cups.png",
-      "/images/bean and bloom/Bean&Bloom Social Media Templates - Glass Cups.png",
-      "/images/bean and bloom/Bean&Bloom Social Media Templates - Mixed Cups.png",
-      "/images/bean and bloom/Bean&Bloom Social Media Templates.png"
-    ],
-    "problem": "Needed a warm, approachable coffee shop identity that appeals to eco-conscious customers.",
-    "solution": "Designed a hand-drawn coffee bean logo, earthy color palette, and rustic menu designs.",
-    "colors": ["#4B3621", "#EAD2AC", "#C1A57B"],
-    "fonts": ["Pacifico", "Open Sans"],
-    "year": "2025"
   }
 ]
