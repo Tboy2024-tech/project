@@ -121,6 +121,7 @@ export default function About() {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="btn-primary flex items-center gap-2"
+                  onClick={() => window.location.href = '/Resume-Oluwatimileyin-Ojo.pdf'}
                 >
                   <Download size={20} />
                   Download Resume
