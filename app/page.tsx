@@ -126,7 +126,7 @@ export default function Home() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-8">
             {[
-              { number: '50+', label: 'Projects Completed' },
+              { number: '30+', label: 'Projects Completed' },
               { number: '30+', label: 'Happy Clients' },
               { number: '3+', label: 'Years Experience' },
               { number: '24/7', label: 'Support Available' },
