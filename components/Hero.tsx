@@ -135,15 +135,14 @@ export default function Hero({
                 </motion.button>
               </Link>
               
-              <motion.button
-                whileHover={{ scale: 1.05 }}
-                whileTap={{ scale: 0.95 }}
+              <a
+                href="/Resume-Oluwatimileyin-Ojo.pdf"
+                download
                 className="border border-gray-600 hover:border-primary text-gray-300 hover:text-white px-8 py-4 rounded-lg font-medium transition-all duration-300 flex items-center gap-2"
-                onClick={() => window.location.href = '/Resume-Oluwatimileyin-Ojo.pdf'}
               >
                 <Download size={20} />
                 Download Resume
-              </motion.button>
+              </a>
             </motion.div>
           )}
         </motion.div>

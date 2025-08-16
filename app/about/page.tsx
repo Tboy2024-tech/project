@@ -117,15 +117,14 @@ export default function About() {
               </div>
               
               <div className="flex flex-col sm:flex-row gap-4">
-                <motion.button
-                  whileHover={{ scale: 1.05 }}
-                  whileTap={{ scale: 0.95 }}
+                <a
+                  href="/Resume-Oluwatimileyin-Ojo.pdf"
+                  download
                   className="btn-primary flex items-center gap-2"
-                  onClick={() => window.location.href = '/Resume-Oluwatimileyin-Ojo.pdf'}
                 >
                   <Download size={20} />
                   Download Resume
-                </motion.button>
+                </a>
                 <motion.button
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
