@@ -129,6 +129,7 @@ export default function About() {
                   whileHover={{ scale: 1.05 }}
                   whileTap={{ scale: 0.95 }}
                   className="border border-primary text-primary hover:bg-primary hover:text-white px-6 py-3 rounded-lg font-medium transition-all duration-300"
+                  onClick={() => window.open('https://www.linkedin.com/in/oluwatimileyinojo/', '_blank')}
                 >
                   Let's Connect
                 </motion.button>
